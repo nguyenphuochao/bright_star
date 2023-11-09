@@ -1,0 +1,167 @@
+body {
+    background-color: #02225b;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background-image: url(./img/BACKGROUND.png);
+    background-size: cover;
+    filter: blur(19px);
+    /* Điều chỉnh mức độ mờ ở đây */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Đặt lớp này ở phía sau nội dung chính */
+}
+
+h2 {
+    color: #01ff2b;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+nav .nav-item {
+    font-weight: bold;
+
+}
+
+nav .nav-item .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+}
+
+nav .nav-item .nav-link:hover {
+    color: yellow !important;
+}
+
+nav ul li i {
+    font-size: 30px;
+}
+
+section #main {
+    position: relative;
+}
+
+section #tivi-mobile {
+    text-align: center;
+}
+
+section #quangcao {
+    position: absolute;
+    top: 40px;
+}
+
+section #quangcao h2 {
+    position: absolute;
+    left: 75px;
+    top: 50px;
+}
+
+section #sanxuatphim {
+    position: absolute;
+    top: 260px;
+}
+
+section #sanxuatphim h2 {
+    position: absolute;
+    bottom: 8px;
+}
+
+section #banquyen {
+    position: absolute;
+    top: 100%;
+    left: 260px;
+}
+
+section #banquyen h2 {
+    position: absolute;
+    top: 147px;
+}
+
+section #tmdt {
+    position: absolute;
+    right: 0px;
+    text-align: right;
+}
+
+section #ttdt {
+    position: absolute;
+    top: 275px;
+    right: 0px;
+    text-align: right;
+}
+
+section #sukien {
+    position: absolute;
+    top: 108%;
+    left: 285px;
+    text-align: right;
+}
+
+section #sukien h2 {
+    position: absolute;
+    right: 30px;
+    top: 37px;
+}
+
+/* Custom hình */
+img.item {
+    transition: transform 0.5s;
+    cursor: pointer;
+
+}
+
+img.item:hover {
+    transform: scale(1.1);
+}
+
+img.item {
+    max-width: 210px;
+
+}
+
+@media screen and (max-width:1140px) {
+    img.item {
+        max-width: 200px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    section #quangcao,
+    section #sanxuatphim,
+    section #banquyen,
+    section #tmdt,
+    section #sukien,
+    section #ttdt {
+        position: static;
+    }
+
+    #tivi-mobile img {
+        width: 100%;
+    }
+
+    section #quangcao h2,
+    section #sanxuatphim h2,
+    section #banquyen h2,
+    section #sukien h2 {
+        position: static;
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    img.item {
+        height: 200px;
+        padding-top: 10px;
+        max-width: 210px;
+
+    }
+}
