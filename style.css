@@ -41,7 +41,11 @@ nav .nav-item .nav-link:hover {
 nav ul li i {
     font-size: 30px;
 }
-
+section #owl-carousel{
+    width: 438px;
+    margin: auto;
+    border: 5px solid white;
+}
 section #main {
     position: relative;
 }
@@ -149,9 +153,11 @@ img.item {
     section #quangcao h2,
     section #sanxuatphim h2,
     section #banquyen h2,
+    section #tmdt h2,
+    section #ttdt h2,
     section #sukien h2 {
         position: static;
-        font-size: 30px;
+        font-size: 25px;
     }
 
 
@@ -162,6 +168,13 @@ img.item {
         height: 200px;
         padding-top: 10px;
         max-width: 210px;
+
+    }
+    section #owl-carousel {
+        width: auto;
+    }
+    img.item {
+        max-width: 170px;
 
     }
 }
