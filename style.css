@@ -172,16 +172,12 @@ img.item {
 
 @media screen and (max-width:500px) {
     img.item {
-        height: 200px;
         padding-top: 10px;
-        max-width: 210px;
+        max-width: 170px;
 
     }
     section #owl-carousel {
         width: auto;
     }
-    img.item {
-        max-width: 170px;
-
-    }
+   
 }
