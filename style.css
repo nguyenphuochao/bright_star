@@ -46,6 +46,13 @@ section #owl-carousel{
     margin: auto;
     border: 5px solid white;
 }
+section .owl-dots{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 200px;
+    color: orange;
+}
 section #main {
     position: relative;
 }
