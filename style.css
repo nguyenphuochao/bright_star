@@ -179,5 +179,8 @@ img.item {
     section #owl-carousel {
         width: auto;
     }
+    section .owl-dots{
+        top: 100%;
+    }
    
 }
