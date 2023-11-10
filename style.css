@@ -75,11 +75,13 @@ section #quangcao h2 {
 section #sanxuatphim {
     position: absolute;
     top: 260px;
+    left: 45px;
 }
 
 section #sanxuatphim h2 {
     position: absolute;
     bottom: 8px;
+    left: 0px;
 }
 
 section #banquyen {
@@ -101,11 +103,15 @@ section #tmdt {
 
 section #ttdt {
     position: absolute;
-    top: 275px;
-    right: 0px;
+    top: 212px;
+    right: 10px;
     text-align: right;
+    
 }
-
+section #ttdt h2{
+    position: absolute;
+    right: 55px;
+}
 section #sukien {
     position: absolute;
     top: 108%;
