@@ -20,7 +20,7 @@ body::before {
 h2 {
     color: #01ff2b;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 nav .nav-item {
@@ -41,7 +41,7 @@ nav ul li i {
     font-size: 30px;
 }
 section #owl-carousel{
-    width: 438px;
+    width: 410px;
     margin: auto;
     border: 5px solid white;
 }
@@ -137,7 +137,7 @@ img.item:hover {
 }
 
 img.item {
-    max-width: 210px;
+    max-width: 190px;
 
 }
 
