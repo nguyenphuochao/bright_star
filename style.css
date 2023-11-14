@@ -2,13 +2,16 @@ body {
     background-color: #02225b;
     background-image: url('img/background_image_1.jpg');
     background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 250px;
+ 
 }
 
 
 h2 {
     color: #01ff2b;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 nav .nav-item {
@@ -30,7 +33,7 @@ nav ul li i {
 }
 
 section #owl-carousel {
-    width: 410px;
+    width: 380px;
     margin: auto;
     border: 5px solid white;
 }
@@ -76,7 +79,7 @@ section #sanxuatphim h2 {
 
 section #banquyen {
     position: absolute;
-    top: 100%;
+    top: 93%;
     left: 260px;
 }
 
@@ -106,7 +109,7 @@ section #ttdt h2 {
 
 section #sukien {
     position: absolute;
-    top: 108%;
+    top: 100%;
     left: 370px;
     text-align: right;
 }
@@ -129,7 +132,7 @@ img.item:hover {
 }
 
 img.item {
-    max-width: 190px;
+    max-width: 200px;
 
 }
 
@@ -190,5 +193,7 @@ img.item {
     section .owl-dots {
         top: 100%;
     }
-
+    body{
+        padding-bottom: 10px;
+    }
 }
