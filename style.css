@@ -6,12 +6,15 @@ body {
     padding-bottom: 250px;
  
 }
-
+@font-face {
+    font-family: Roboto-Black;
+    src: url('./font/Roboto-Black.ttf');
+}
 
 h2 {
     color: #01ff2b;
-    font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
+    font-family: Roboto-Black;
 }
 
 nav .nav-item {
@@ -61,8 +64,8 @@ section #quangcao {
 
 section #quangcao h2 {
     position: absolute;
-    left: 75px;
-    top: 50px;
+    left: 120px;
+    top: 78px;
 }
 
 section #sanxuatphim {
